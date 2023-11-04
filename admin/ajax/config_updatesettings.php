@@ -2,7 +2,7 @@
 /**
 * AJAX page for saving configuration in config.php
 **/
-require "../../vendor/autoload.php";
+require_once "../../vendor/autoload.php";
 try {
     session_start();
     $conf = new PHPLogin\AppConfig;
